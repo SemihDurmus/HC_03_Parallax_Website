@@ -123,7 +123,7 @@
 
     .small_image_1 {
         @include set_background_image($Image_2);
-        height: 35vh;
+        height: 50vh;
         background-position: center;
         background-repeat: no-repeat;
         .small_image_title {
@@ -136,7 +136,7 @@
     
     .small_image_2 {
         @include set_background_image($Image_3);
-        height: 35vh;
+        height: 50vh;
         background-position: center;
         background-repeat: no-repeat;
         .small_image_title {
