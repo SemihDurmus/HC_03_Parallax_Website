@@ -1,5 +1,7 @@
 # Project-003 : Parallax Website (HC-03)
 
+https://semihdurmus.github.io/Project_HC_03_Parallax_Website/.
+
 ## Description
 Project aims to create parallax website.
 
