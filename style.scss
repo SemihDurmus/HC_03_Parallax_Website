@@ -1,0 +1,88 @@
+@import "css_reset";
+@import "sections";
+
+@mixin set_background_image($Image) { 
+    background-image: $Image;
+    height: 100vh;
+    opacity: 0.7;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin set_background_title {
+    width: 100%;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 5vw;
+    background-color: rgba(255,0,0,0.7);
+}
+
+@mixin information_style {
+    h2 {
+        color: #666;
+        text-align: center;
+        font-family: Poppins;
+        margin-bottom: 3vw;
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.8em;
+        text-align: center;
+    }
+
+}
+
+
+// --------------------------------------------------
+
+
+.large_image {
+    @include set_background_image($Image_1);
+    .large_image_title {
+        @include set_background_title;
+    }
+}
+
+.information {
+    padding: 3.5vw 1vw;
+    @include information_style;
+}
+
+
+.gray_bg {
+    background-color: #f2f2f2;
+}
+
+.small_image {
+    @include set_background_image($Image_2);
+    height: 40vh;
+    background-attachment: fixed;
+    .small_image_title {
+        @include set_background_title;
+        width:auto;
+        font-size: 3vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+}
+
+.black_bg {
+    h2 {
+        color: #f2f2f2;
+    }
+    color: #f2f2f2;
+    background-color:#2f3542 ;
+}
+
+// #third_image {
+//     @include set_background_image($Image_3);
+//     height: 40vh;
+//     background-attachment: fixed;
+
+// }
+
+
