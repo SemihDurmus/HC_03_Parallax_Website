@@ -183,7 +183,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 20vh;
+    height: 35vh;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -221,7 +221,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 20vh;
+    height: 35vh;
     background-position: center;
     background-repeat: no-repeat;
   }
